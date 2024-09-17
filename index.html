@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Responsive Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/h8k-design@latest/dist/index.css" rel="stylesheet"/>
+    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/npm/h8k-design@latest/dist/assets/favicon.ico">
+    <script src="https://cdn.jsdelivr.net/npm/h8k-components/dist/h8k-components/h8k-components.esm.js"
+            type="module"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/h8k-components/dist/h8k-components/h8k-components.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<!--HTML content goes here-->
+<h8k-navbar header="Responsive Form"></h8k-navbar>
+
+<div class="my-50 mx-auto">
+    <div class="container">
+        <div class="layout">
+            <h2>Your Form</h2>
+            <form>
+                <input placeholder="First name" class="first-name"/>
+                <input placeholder="Last name" class="last-name"/>
+                <input placeholder="Age" type="number" class="age"/>
+                <input placeholder="Address" class="address"/>
+                <input placeholder="Place of work" class="place-of-work"/>
+                <input placeholder="Job title" class="job-title"/>
+                <input placeholder="Phone number" class="phone-number"/>
+                <input placeholder="Skype" class="skype"/>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="template">
+            <h2>Expected Result</h2>
+            <div class="template-form">
+                <input placeholder="First name"/>
+                <input placeholder="Last name"/>
+                <input placeholder="Age" type="number"/>
+                <input placeholder="Address"/>
+                <input placeholder="Place of work"/>
+                <input placeholder="Job title"/>
+                <input placeholder="Phone number"/>
+                <input placeholder="Skype"/>
+                <button type="submit">Submit</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+<!-- HMR and test infrastructure - DO NOT EDIT -->
+<script src="./bundle.js"></script>
+</html>

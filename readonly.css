@@ -1,0 +1,122 @@
+.container {
+  position: relative;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.layout, .template {
+  width: 700px;
+  padding: 20px;
+  min-height: 500px;
+}
+
+button {
+  margin: 0;
+}
+
+form {
+  position: relative;
+}
+
+input {
+  box-sizing: border-box;
+}
+
+.template-form {
+  position: relative;
+}
+
+.template-form input, .template-form button {
+  position: absolute !important;
+  margin: 0 !important;
+}
+
+.template-form input[placeholder="First name"] {
+  top: 0;
+  width: 227px;
+}
+
+.template-form input[placeholder="Last name"] {
+  top: 0;
+  left: 237px;
+  width: 227px;
+}
+
+.template-form input[placeholder="Age"] {
+  top: 0;
+  left: 474px;
+  width: 227px;
+}
+
+.template-form input[placeholder="Address"] {
+  top: 46px;
+  width: 700px;
+}
+
+.template-form input[placeholder="Place of work"] {
+  top: 92px;
+  width: 345px;
+}
+
+.template-form input[placeholder="Job title"] {
+  top: 92px;
+  width: 345px;
+  left: 355px;
+}
+
+.template-form input[placeholder="Phone number"] {
+  top: 138px;
+  width: 345px;
+  left: 0px;
+}
+
+.template-form input[placeholder="Skype"] {
+  top: 138px;
+  width: 345px;
+  left: 355px;
+}
+
+.template-form button {
+  top: 184px;
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .template-form input, .template-form button {
+    width: 100% !important;
+    left: 0 !important;
+  }
+
+  .template-form input[placeholder="Last name"] {
+    top: 46px;
+  }
+
+  .template-form input[placeholder="Age"] {
+    top: 92px;
+  }
+
+  .template-form input[placeholder="Address"] {
+    top: 138px;
+  }
+
+  .template-form input[placeholder="Place of work"] {
+    top: 184px;
+  }
+
+  .template-form input[placeholder="Job title"] {
+    top: 230px;
+  }
+
+  .template-form input[placeholder="Phone number"] {
+    top: 276px;
+  }
+
+  .template-form input[placeholder="Skype"] {
+    top: 322px;
+  }
+
+  .template-form button {
+    top: 368px;
+  }
+}
